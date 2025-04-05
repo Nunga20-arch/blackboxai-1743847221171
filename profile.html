@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - MovieMatch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex items-center">
+    <div class="container mx-auto max-w-md p-8">
+        <div class="bg-gray-800 rounded-xl p-8 shadow-lg">
+            <h1 class="text-3xl font-bold text-center mb-8 text-purple-400">Select Your Preferences</h1>
+            
+            <form id="preferencesForm" class="space-y-6">
+                <div>
+                    <h2 class="text-lg font-medium mb-2">Preferred Genres</h2>
+                    <div class="space-y-2">
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" value="Action" class="form-checkbox h-5 w-5 text-purple-600">
+                            <span class="ml-2">Action</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" value="Comedy" class="form-checkbox h-5 w-5 text-purple-600">
+                            <span class="ml-2">Comedy</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" value="Drama" class="form-checkbox h-5 w-5 text-purple-600">
+                            <span class="ml-2">Drama</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" value="Horror" class="form-checkbox h-5 w-5 text-purple-600">
+                            <span class="ml-2">Horror</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" value="Sci-Fi" class="form-checkbox h-5 w-5 text-purple-600">
+                            <span class="ml-2">Sci-Fi</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="w-full py-3 px-4 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium transition">
+                    Save Preferences
+                </button>
+            </form>
+            
+            <div class="mt-6 text-center">
+                <a href="recommendations.html" class="text-purple-400 hover:underline">View Recommendations</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('preferencesForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            const selectedGenres = Array.from(checkboxes).map(checkbox => checkbox.value);
+            localStorage.setItem('preferredGenres', JSON.stringify(selectedGenres));
+            alert('Preferences saved!');
+        });
+    </script>
+</body>
+</html>
