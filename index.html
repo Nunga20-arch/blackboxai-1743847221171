@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMatch - Personalized Recommendations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                              url('https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-purple-400">MovieMatch</h1>
+            <div>
+                <a href="login.html" class="px-4 py-2 rounded bg-purple-600 hover:bg-purple-700 transition">Login</a>
+                <a href="signup.html" class="ml-2 px-4 py-2 rounded bg-gray-700 hover:bg-gray-600 transition">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero min-h-screen flex items-center">
+        <div class="container mx-auto text-center px-4">
+            <h1 class="text-5xl font-bold mb-6">Discover Your Next Favorite</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Get personalized movie and TV show recommendations based on your unique taste.</p>
+            <div class="space-x-4">
+                <a href="signup.html" class="px-6 py-3 rounded-lg bg-purple-600 hover:bg-purple-700 text-lg font-medium transition">Get Started</a>
+                <a href="login.html" class="px-6 py-3 rounded-lg bg-gray-700 hover:bg-gray-600 text-lg font-medium transition">Login</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 MovieMatch. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
