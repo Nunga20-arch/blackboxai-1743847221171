@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Inception",
+        "genre": "Sci-Fi",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology.",
+        "year": 2010,
+        "rating": 8.8
+    },
+    {
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "When the menace known as the Joker wreaks havoc on Gotham City.",
+        "year": 2008,
+        "rating": 9.0
+    },
+    {
+        "title": "Pulp Fiction",
+        "genre": "Drama",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine.",
+        "year": 1994,
+        "rating": 8.9
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "Two imprisoned men bond over a number of years.",
+        "year": 1994,
+        "rating": 9.3
+    },
+    {
+        "title": "The Matrix",
+        "genre": "Sci-Fi",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "A computer hacker learns about the true nature of reality.",
+        "year": 1999,
+        "rating": 8.7
+    },
+    {
+        "title": "Superbad",
+        "genre": "Comedy",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "Two co-dependent high school seniors try to buy alcohol for a party.",
+        "year": 2007,
+        "rating": 7.6
+    },
+    {
+        "title": "Get Out",
+        "genre": "Horror",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "A young African-American visits his white girlfriend's parents for the weekend.",
+        "year": 2017,
+        "rating": 7.7
+    },
+    {
+        "title": "Interstellar",
+        "genre": "Sci-Fi",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "A team of explorers travel through a wormhole in space.",
+        "year": 2014,
+        "rating": 8.6
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "genre": "Comedy",
+        "image": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg",
+        "description": "The adventures of Gustave H, a legendary concierge at a famous hotel.",
+        "year": 2014,
+        "rating": 8.1
+    }
+]
